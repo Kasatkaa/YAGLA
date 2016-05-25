@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="style.css">
+
+<h1><center>{{titleSite}}</center></h1>
+{{#if error}}
+<h2>{{error}}</h2>
+{{/if}}
+
+<div>
+
+{{#each news}}
+<div>
+	<h2><a href="{{url}}">{{title}}</a></h2>
+	<div class ="news">{{news}}</div>
+	<div class="full">{{full}}</div>
+	<img src="{{img}}.jpg" width ="600" height ="300">
+</div>
+{{/each}}
+</div>

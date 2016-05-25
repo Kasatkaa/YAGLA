@@ -1,0 +1,20 @@
+{
+  "name": "spark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js.js",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "consolidate": "^0.14.1",
+    "express": "^4.13.4",
+    "handlebars": "^4.0.5",
+    "mongoose": "^4.4.19",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katya Sakovich",
+  "license": "ISC"
+}

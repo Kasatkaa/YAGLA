@@ -1,0 +1,20 @@
+body {
+    background: #f2f2f2;
+}
+
+div {
+	width: 700px;
+	margin: 0 auto;
+  
+   }
+  a {
+   	text-decoration: none;
+   	color: black;
+   }
+   a:hover {
+   	text-decoration: underline;
+   }
+   .news {
+    
+    font-size: 13pt; /* Размер шрифта в пунктах */ 
+   }
